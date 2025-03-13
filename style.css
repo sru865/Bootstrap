@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+}
+.main {
+    display: flex;
+    gap: 1rem;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 20%;
+    height: 100%;
+    background-color:skyblue ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    color: white;
+
+}
+.right-panel  {
+    width: 100;
+    height: 100%;
+    background-color:slategray ;
+    overflow-y: scroll;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    color: purple;
+    font-size: 32px;
+}
+p {
+    font-size: 15px;
+}
+
+.profile {
+    height: 7rem;
+    width: 7rem ;
+    object-fit: cover;
+    border-radius: 100%;
+    
+
+}
+.icons {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.icons img {
+    height: 3rem;
+    width: 3rem;
+
+}
+.skill-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    
+
+}
+.skill-icons img {
+    
+    height: 6rem;
+    width: 6rem;
+
+ 
+}
+.contact { 
+    font-size: 24px;
+    padding: 5rem;
+}
+
